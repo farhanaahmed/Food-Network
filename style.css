@@ -144,6 +144,10 @@ h1{
 #head{
     margin: 0;
 }
+
+#recipe-part{
+    padding-top: 40px;
+}
 .recipe-item p{
     color: #18191F;
     font-size: 14px;
