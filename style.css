@@ -23,12 +23,14 @@ h1{
     margin: 0;
 }
 .colored-text{
-    background: -webkit-linear-gradient(#FBA24F,#FF1E1E);
+    background: -webkit-linear-gradient(left, #FBA24F,#FF1E1E);
+    background: -o-linear-gradient(right, #FBA24F,#FF1E1E);
+    background: -moz-linear-gradient(right, #FBA24F,#FF1E1E);
+    background: linear-gradient(to right, #FBA24F,#FF1E1E); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-    
-}
+
 .top-banner p{
 
     color: #828282;
@@ -37,7 +39,7 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(#FBA24F,#FF1E1E);
+    background-image: linear-gradient(45deg,#FBA24F,#FF1E1E);
     padding: 10px 50px;
     border-radius: 50px;
     color: white;
