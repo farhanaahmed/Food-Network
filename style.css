@@ -83,6 +83,9 @@ h1{
     min-width: 100%;
 
 }
+#about-me{
+    margin-bottom: 20px;
+}
 .mid-img img{
     padding-left: 200px;
     padding-top: 25px;
