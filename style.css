@@ -150,6 +150,7 @@ h1{
 
 #recipe-part{
     padding-top: 50px;
+    margin-top: 40px;
 }
 .recipe-item p{
     color: #18191F;
@@ -170,14 +171,14 @@ h1{
     margin-bottom: 60px;
 }
 .social h2{
-    font-size: 48px;
+    font-size: 42px;
     text-align: center !important;
     color: #0B0D1767;
     margin-bottom: 5px;
     font-weight: 900;
 }
 .social img{
-    width: 50%;
+    width: 40%;
 }
 .social-item{
     padding-left: 20%;
